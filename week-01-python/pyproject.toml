@@ -1,0 +1,30 @@
+[project]
+name = "week-01-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kholis", email = "kholis.abdullah@edot.id" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "anthropic>=0.100.0",
+    "beautifulsoup4>=4.14.3",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+week-01-python = "week_01_python:main"
+
+[build-system]
+requires = ["uv_build>=0.11.8,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.1",
+    "pytest>=8.4.2",
+    "ruff>=0.15.12",
+]
