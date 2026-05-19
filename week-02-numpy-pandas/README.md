@@ -1,7 +1,8 @@
 # Week 2 — Spotify Songs EDA
 
-Exploratory Data Analysis on Spotify Songs dataset (~33k tracks).
-Bagian dari [AI Engineer Journey](https://github.com/<username>/ai-engineer-journey).
+Exploratory Data Analysis on Spotify Songs dataset (~33k tracks across 6 genres).
+
+Bagian dari [AI Engineer Journey](https://github.com/mhtrmkholis/ai-engineer-journey).
 
 ## Goal
 
@@ -14,9 +15,10 @@ dan menganalisis pola popularity, audio features, dan hubungan keduanya.
 2. **Pop & Latin dominate popularity** despite EDM being the most energetic genre
 3. **Audio features cluster predictably**: energy-loudness strongly positive (r=0.7), 
    energy-acousticness inverse (r=-0.6)
-4. **No single sound formula for popularity**: audio features alone correlate weakly with popularity
-5. **Each genre has distinct audio DNA**: rap most danceable, rock least danceable, 
-   R&B most acoustic, Latin most cheerful
+4. **No single sound formula for popularity**: every audio feature correlates with 
+   popularity at |r| < 0.15 — virality is multi-factorial
+5. **Each genre has distinct audio DNA**: rap leads danceability (0.72), rock lags (0.52); 
+   R&B is most acoustic (0.26); Latin most cheerful (valence 0.61)
 
 ## Visualizations
 
@@ -50,4 +52,8 @@ Open `notebooks/04_spotify_eda.ipynb`.
 
 ## Dataset
 
-[Spotify Songs (TidyTuesday 2020-01-21)](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-01-21)
+[Spotify Songs (TidyTuesday 2020-01-21)](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-01-21).
+
+---
+
+← Back to [AI Engineer Journey](https://github.com/mhtrmkholis/ai-engineer-journey) main repo.
