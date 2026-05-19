@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/week-02-numpy-pandas/.venv/bin/python",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/week-02-numpy-pandas/src"
+  ],
+  "sonarlint.connectedMode.project": {
+    "connectionId": "https-sonarqube-edot-id-",
+    "projectKey": "edot_core-api_otp-engine_otpengine_68ccb36d-cdf8-47fb-bb6b-f165f4039de5"
+  }
+}
